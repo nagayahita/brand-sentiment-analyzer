@@ -1,0 +1,20 @@
+brand-sentiment-analyzer/
+├── data/
+│   ├── raw/                    # Data mentah
+│   │   └── Twitter_Data.csv
+│   └── processed/              # Data yang sudah diproses
+├── notebooks/
+│   └── sentiment_analysis.ipynb # Notebook utama
+├── src/
+│   ├── __init__.py
+│   ├── preprocessor.py         # Class TextPreprocessor
+│   ├── models.py              # Model training dan evaluasi
+│   └── utils.py               # Fungsi-fungsi pembantu
+├── tests/
+│   ├── __init__.py
+│   ├── test_preprocessor.py
+│   └── test_models.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+└── LICENSE
