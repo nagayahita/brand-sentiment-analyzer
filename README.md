@@ -26,23 +26,23 @@ A comprehensive sentiment analysis system for brand monitoring on social media, 
 ## Installation
 
 ```bash
-# Clone the repository
+## Clone the repository
 git clone https://github.com/yourusername/brand-sentiment-analyzer.git
 cd brand-sentiment-analyzer
 
-# Create virtual environment
+## Create virtual environment
 python -m venv venv
 
-# Activate virtual environment
-# For Windows:
+## Activate virtual environment
+## For Windows:
 venv\Scripts\activate
-# For Unix or MacOS:
+## For Unix or MacOS:
 source venv/bin/activate
 
-# Install dependencies
+## Install dependencies
 pip install -r requirements.txt
 
-### Using the Notebook
+## Using the Notebook
 1. Navigate to `notebooks/` directory
 2. Open `brand-sentiment-analyzer.ipynb`
 3. Follow the step-by-step analysis
@@ -50,17 +50,17 @@ pip install -r requirements.txt
 from src.preprocessor import TextPreprocessor
 from src.models import SentimentAnalyzer
 
-# Initialize preprocessor
+## Initialize preprocessor
 preprocessor = TextPreprocessor()
 
-# Initialize analyzer
+## Initialize analyzer
 analyzer = SentimentAnalyzer()
 
-# Analyze sentiment
+## Analyze sentiment
 text = "Great product, amazing service!"
 sentiment = analyzer.predict(text)
 
-# Project Structure
+## Project Structure
 
 brand-sentiment-analyzer/
 ├── data/               # Dataset directory
@@ -75,7 +75,7 @@ brand-sentiment-analyzer/
 └── tests/            # Unit tests
     └── test_preprocessor.py
 
-# Requirements
+## Requirements
 
 Python 3.8+
 pandas
@@ -86,17 +86,17 @@ jupyter
 matplotlib
 seaborn
 
-# Development Setup
+## Development Setup
 # Install development dependencies
 pip install -r requirements-dev.txt
 
-# Run tests
+## Run tests
 pytest tests/
 
-# Run linting
+## Run linting
 flake8 src/
 
-# Contributing
+## Contributing
 
 Fork the repository
 Create your feature branch
@@ -110,19 +110,19 @@ bashCopygit push origin feature/amazing-feature
 
 Open a Pull Request
 
-# Testing
+## Testing
 
 pytest tests/
 
-# License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 Acknowledgments
 
-# Dataset source: Twitter Brand Sentiment Dataset
+## Dataset source: Twitter Brand Sentiment Dataset
 NLTK library for text processing
 scikit-learn for machine learning models
 Inspiration from various sentiment analysis papers and implementations
 
-# Contact
+## Contact
 Your Name - @nagayahita
 Project Link: https://github.com/yourusername/brand-sentiment-analyzer
