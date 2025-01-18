@@ -25,19 +25,13 @@ A comprehensive sentiment analysis system for brand monitoring on social media, 
 
 ## Installation
 
-```bash
-## Clone the repository
+-```bash
+# Clone the repository
 git clone https://github.com/yourusername/brand-sentiment-analyzer.git
 cd brand-sentiment-analyzer
 
-## Create virtual environment
+# Create virtual environment
 python -m venv venv
-
-## Activate virtual environment
-## For Windows:
-venv\Scripts\activate
-## For Unix or MacOS:
-source venv/bin/activate
 
 ## Install dependencies
 pip install -r requirements.txt
