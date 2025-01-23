@@ -104,4 +104,5 @@ Inspiration from various sentiment analysis papers and implementations
 
 ## Contact
 Your Name - @nagayahita
-Project Link: https://github.com/yourusername/brand-sentiment-analyzer
+Project Link: https://github.com/nagayahita/brand-sentiment-analyzer
+gmail: nayahitaaditya@gmail.com
