@@ -25,7 +25,7 @@ A comprehensive sentiment analysis system for brand monitoring on social media, 
 
 ## Installation
 
--```bash
+
 # Clone the repository
 git clone https://github.com/yourusername/brand-sentiment-analyzer.git
 cd brand-sentiment-analyzer
@@ -53,21 +53,6 @@ analyzer = SentimentAnalyzer()
 ## Analyze sentiment
 text = "Great product, amazing service!"
 sentiment = analyzer.predict(text)
-
-## Project Structure
-
-brand-sentiment-analyzer/
-├── data/               # Dataset directory
-│   ├── raw/           # Raw input files
-│   └── processed/     # Preprocessed data
-├── notebooks/         # Jupyter notebooks
-│   └── sentiment_analysis.ipynb
-├── src/              # Source code
-│   ├── preprocessor.py
-│   ├── models.py
-│   └── utils.py
-└── tests/            # Unit tests
-    └── test_preprocessor.py
 
 ## Requirements
 
