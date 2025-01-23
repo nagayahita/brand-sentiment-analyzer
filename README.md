@@ -103,6 +103,6 @@ scikit-learn for machine learning models
 Inspiration from various sentiment analysis papers and implementations
 
 ## Contact
-Your Name - @nagayahita
+@nagayahita
 Project Link: https://github.com/nagayahita/brand-sentiment-analyzer
 gmail: nayahitaaditya@gmail.com
